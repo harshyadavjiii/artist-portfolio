@@ -1,81 +1,53 @@
-import ThemeToggle from "./theme-toggle";
 import ArtistAvatar from "./artist-avatar";
-
-const showcase = [
-  {
-    type: "Photography",
-    title: "Golden Silence",
-    description:
-      "Soft morning light, quiet architecture, and a stillness that turns a fleeting scene into memory.",
-    accent: "from-[#f4d6a0] via-[#d98652] to-[#4b2a22]",
-    size: "md:col-span-2 md:row-span-2",
-    frame: "rotate-[-2deg]",
-  },
-  {
-    type: "Painting",
-    title: "Monsoon Bloom",
-    description:
-      "Layered color fields inspired by rain-soaked gardens and petals holding the last of the storm.",
-    accent: "from-[#f3c0b6] via-[#b45c7b] to-[#402033]",
-    size: "",
-    frame: "rotate-[1.5deg]",
-  },
-  {
-    type: "Photography",
-    title: "City After Rain",
-    description:
-      "Reflective streets and neon mist, balancing documentary detail with cinematic atmosphere.",
-    accent: "from-[#9ed4d8] via-[#3b6f8f] to-[#1f2339]",
-    size: "",
-    frame: "rotate-[-1deg]",
-  },
-  {
-    type: "Painting",
-    title: "Earthsong",
-    description:
-      "A textured composition of sienna, clay, and ash, echoing handmade pigments and intimate gestures.",
-    accent: "from-[#ecd7b4] via-[#b97a49] to-[#5a3020]",
-    size: "",
-    frame: "rotate-[2deg]",
-  },
-  {
-    type: "Photography",
-    title: "Window Light Study",
-    description:
-      "Portrait-like still life work that explores shadow edges, fabric folds, and gentle human presence.",
-    accent: "from-[#f5ead7] via-[#c7a789] to-[#6d4b3e]",
-    size: "md:col-span-2",
-    frame: "rotate-[-1.5deg]",
-  },
-];
+import Image from "next/image";
+import Link from "next/link";
+import { artworks } from "./portfolio-data";
 
 const highlights = [
-  "Fine art photography with a poetic, human eye",
-  "Expressive paintings shaped by texture, light, and memory",
-  "Available for commissions, exhibitions, and creative collaborations",
+  "Agronomist working with exotic and domestic leafy vegetables",
+  "Research assistant breeder at ORBI Seeds, Bengaluru",
+  "Clear communicator, relationship builder, and lifelong learner",
 ];
 
 export default function Home() {
+  const scenerySlugs = ["scenery13", "scenery11", "scenery24"];
+  const showcase = artworks.map((artwork, index) =>
+    index === 0
+      ? {
+          ...artwork,
+          image: "/images/scenery13.jpeg",
+          aspectRatio: "3 / 4",
+          type: "Photography" as const,
+        }
+      : index === 1
+        ? {
+            ...artwork,
+            image: "/images/scenery11.jpeg",
+            aspectRatio: "3 / 4",
+            type: "Photography" as const,
+          }
+        : index === 2
+          ? {
+              ...artwork,
+              image: "/images/scenery24.jpeg",
+              type: "Photography" as const,
+            }
+        : artwork,
+  );
+
   return (
     <main className="theme-page relative overflow-hidden">
-      <ThemeToggle />
       <div className="theme-orb theme-orb-one absolute left-[-8rem] top-[-6rem] h-72 w-72 rounded-full blur-3xl" />
       <div className="theme-orb theme-orb-two absolute right-[-10rem] top-[20rem] h-80 w-80 rounded-full blur-3xl" />
       <section className="mx-auto flex min-h-screen w-full max-w-7xl flex-col px-6 pb-16 pt-8 sm:px-10 lg:px-12">
-        <div className="theme-divider theme-topline mb-14 flex items-center justify-between gap-4 border-b pb-5 text-xs uppercase tracking-[0.35em]">
-          <span>Artist Portfolio</span>
-          <a
-            className="theme-link transition"
-            href="mailto:swati@somewhere.com"
-          >
-            swati@somewhere.com
-          </a>
+        <div className="theme-divider theme-topline mb-14 border-b pb-5 text-xs uppercase tracking-[0.35em]">
+          Artist Portfolio
         </div>
 
         <div className="grid flex-1 gap-12 lg:grid-cols-[1.15fr_0.85fr] lg:items-center">
           <div className="space-y-8">
             <p className="theme-kicker text-sm uppercase tracking-[0.4em]">
-              Photography • Paintings • Visual Stories
+              Agronomy • Research • Visual Stories
             </p>
             <div className="space-y-5">
               <h1 className="theme-heading max-w-4xl font-[family:var(--font-display)] text-6xl leading-none sm:text-7xl lg:text-[7.8rem]">
@@ -83,9 +55,10 @@ export default function Home() {
                 <span className="theme-subheading ml-3 inline-block">Yadav</span>
               </h1>
               <p className="theme-body max-w-2xl text-lg leading-8 sm:text-xl">
-                A luminous front page for an artist who moves between the lens
-                and the canvas, creating photographs and paintings rich with
-                atmosphere, emotion, and quiet drama.
+                Swati Yadav is an agronomist, research assistant breeder, B2B
+                relationship manager, and agri advisor who brings curiosity,
+                creative thinking, and care to every growing system and human
+                connection.
               </p>
             </div>
 
@@ -127,9 +100,9 @@ export default function Home() {
                       Artist Note
                     </p>
                     <p className="theme-body mt-4 text-sm leading-7">
-                      Swati Yadav builds visual narratives around tenderness,
-                      color, and memory, letting both camera and brush explore
-                      the same emotional landscape.
+                      She works across crop science and communication, from
+                      cocopeat substrate and lettuce NFT systems to practical
+                      advice that helps people make confident decisions.
                     </p>
                   </div>
                   <div className="contact-card rounded-[1.75rem] px-5 py-4">
@@ -140,11 +113,12 @@ export default function Home() {
                       href="mailto:swati@somewhere.com"
                       className="contact-link mt-3 block whitespace-nowrap font-[family:var(--font-display)] text-[1.2rem] leading-tight transition sm:text-[1.28rem] lg:text-[1.42rem]"
                     >
-                      swati@somewhere.com
+                      Swati Yadav
                     </a>
                     <p className="contact-copy mt-2 text-sm leading-6">
-                      Open for commissions, gallery features, and curated
-                      collaborations.
+                      Driven by perseverance, small self-set challenges, and a
+                      belief that thoughtful work can help people and plants
+                      thrive.
                     </p>
                   </div>
                 </div>
@@ -173,28 +147,51 @@ export default function Home() {
           </p>
         </div>
 
-        <div className="grid auto-rows-[260px] gap-6 md:grid-cols-3">
-          {showcase.map((piece) => (
+        <div className="grid items-start gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          {showcase.map((piece, index) => (
             <article
               key={piece.title}
-              className={`showcase-card group relative overflow-hidden rounded-[2rem] border p-4 shadow-[0_18px_70px_rgba(61,33,17,0.12)] backdrop-blur ${piece.size}`}
+              className="showcase-card group relative overflow-hidden rounded-[2rem] border shadow-[0_18px_70px_rgba(61,33,17,0.12)]"
             >
-              <div
-                className={`relative flex h-full w-full ${piece.frame} flex-col justify-end overflow-hidden rounded-[1.6rem] bg-gradient-to-br ${piece.accent} p-6 text-white transition duration-500 group-hover:rotate-0 group-hover:scale-[1.02]`}
+              <Link
+                href={
+                  index < 3
+                    ? `/scenery/${scenerySlugs[index]}`
+                    : `/paintings/${piece.slug}`
+                }
+                className="block"
               >
-                <div className="showcase-image-overlay absolute inset-0" />
-                <div className="showcase-image-accent absolute right-5 top-5 h-20 w-16 rounded-full blur-[2px]" />
-                <div className="relative">
-                  <p className="text-xs uppercase tracking-[0.3em] text-white/70">
-                    {piece.type}
-                  </p>
-                  <h3 className="mt-3 font-[family:var(--font-display)] text-4xl leading-none">
+                <div
+                  className="relative w-full overflow-hidden bg-black/5"
+                  style={{ aspectRatio: piece.aspectRatio }}
+                >
+                  <Image
+                    src={piece.image}
+                    alt={piece.title}
+                    fill
+                    sizes="(max-width: 768px) 100vw, 33vw"
+                    className={`${index < 3 ? "object-cover" : "object-contain"} transition duration-500 group-hover:scale-[1.02]`}
+                  />
+                </div>
+              </Link>
+              <div className="showcase-caption p-5 sm:p-6">
+                <p className="theme-kicker text-xs uppercase tracking-[0.3em]">
+                  {piece.type}
+                </p>
+                <Link
+                  href={
+                    index < 3
+                      ? `/scenery/${scenerySlugs[index]}`
+                      : `/paintings/${piece.slug}`
+                  }
+                >
+                  <h3 className="theme-heading mt-2 font-[family:var(--font-display)] text-3xl leading-none">
                     {piece.title}
                   </h3>
-                  <p className="mt-3 max-w-md text-sm leading-6 text-white/82">
-                    {piece.description}
-                  </p>
-                </div>
+                </Link>
+                <p className="theme-body mt-3 text-sm leading-6">
+                  {piece.description}
+                </p>
               </div>
             </article>
           ))}

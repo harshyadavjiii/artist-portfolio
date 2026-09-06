@@ -1,11 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { sceneryEntries } from "../../scenery-data";
+import { getContent } from "../../../lib/content";
 
-export function generateStaticParams() {
-  return sceneryEntries.map((entry) => ({ slug: entry.slug }));
-}
+export const dynamic = "force-dynamic";
 
 export default async function SceneryPage({
   params,
@@ -13,7 +11,8 @@ export default async function SceneryPage({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
-  const entry = sceneryEntries.find((item) => item.slug === slug);
+  const { journal } = await getContent();
+  const entry = journal.find((item) => item.slug === slug);
 
   if (!entry) notFound();
 

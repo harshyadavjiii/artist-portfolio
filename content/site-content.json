@@ -1,0 +1,616 @@
+{
+  "settings": {
+    "siteTitle": "Swati Yadav | Photography & Paintings",
+    "siteDescription": "A luminous artist portfolio for Swati Yadav featuring expressive photography, paintings, and contact information.",
+    "email": "swati@somewhere.com"
+  },
+  "home": {
+    "topline": "Artist Portfolio",
+    "kicker": "Agronomy • Research • Visual Stories",
+    "firstName": "Swati",
+    "lastName": "Yadav",
+    "intro": "Swati Yadav is an agronomist, research assistant breeder, B2B relationship manager, and agri advisor who brings curiosity, creative thinking, and care to every growing system and human connection.",
+    "highlights": [
+      "Agronomist working with exotic and domestic leafy vegetables",
+      "Research assistant breeder at ORBI Seeds, Bengaluru",
+      "Clear communicator, relationship builder, and lifelong learner"
+    ],
+    "artistNote": "She works across crop science and communication, from cocopeat substrate and lettuce NFT systems to practical advice that helps people make confident decisions.",
+    "contactCopy": "Driven by perseverance, small self-set challenges, and a belief that thoughtful work can help people and plants thrive.",
+    "showcaseKicker": "Showcase",
+    "showcaseTitle": "Beautiful photographs and paintings",
+    "showcaseCopy": "A gallery-style arrangement of featured works, balancing painterly warmth with crisp photographic storytelling.",
+    "showcaseScenery": [
+      "scenery13",
+      "scenery11",
+      "scenery24"
+    ]
+  },
+  "about": {
+    "topline": "About Swati",
+    "kicker": "A life in cultivation",
+    "title": "A curious mind with dirt under her fingernails.",
+    "intro": "Swati Yadav is a research assistant breeder, agronomist, and who believes that meaningful growth is built through patience, attention, and daily practice.",
+    "body": "Her work moves between the precision of crop science and the human work of communication. She enjoys understanding a system deeply, making it more useful for others, and staying open to the lessons that arrive along the way.",
+    "values": [
+      {
+        "number": "01",
+        "title": "Keep learning",
+        "copy": "Every crop, conversation, and challenge is an invitation to become more capable."
+      },
+      {
+        "number": "02",
+        "title": "Stay connected",
+        "copy": "Good work grows through clear communication, trust, and shared responsibility."
+      },
+      {
+        "number": "03",
+        "title": "Begin again",
+        "copy": "Perseverance means returning to the work with a little more understanding each time."
+      }
+    ],
+    "journey": [
+      {
+        "image": "/images/scenery19.jpeg",
+        "eyebrow": "The philosophical side",
+        "title": "Perseverance as a practice",
+        "copy": "Swati believes progress is made in the small decisions that are repeated with care. She gives herself small challenges, asks better questions, and keeps returning to the work until the person she is becoming feels a little more precise than the person she was yesterday.",
+        "detail": "A personal philosophy of patience, curiosity, and purposeful effort."
+      },
+      {
+        "image": "/images/scenery23.jpeg",
+        "eyebrow": "The traveller side",
+        "title": "Learning from every landscape",
+        "copy": "Travel gives Swati a different kind of classroom. New roads, local food systems, changing weather, and unfamiliar conversations sharpen her attention and remind her that every place has its own rhythm. She returns with photographs, notes, and a wider way of seeing.",
+        "detail": "Moving through the world slowly enough to notice what it is teaching."
+      },
+      {
+        "image": "/images/scientific05.jpeg",
+        "eyebrow": "Agronomy / 01",
+        "title": "Growing better from the root",
+        "copy": "As an agronomist, Swati works across exotic and domestic leafy vegetables, cocopeat substrate systems, and lettuce production on NFT. Her work brings together observation, crop care, and practical problem-solving to help plants perform in controlled and changing environments.",
+        "detail": "Exotic and domestic leafy vegetables · Cocopeat substrate · Lettuce NFT systems"
+      },
+      {
+        "image": "/images/scientific06.jpeg",
+        "eyebrow": "Research / 02",
+        "title": "Curiosity in the field and the lab",
+        "copy": "As a research assistant breeder at ORBI Seeds, a Bengaluru-based company, Swati supports the patient work of understanding, selecting, and improving crops. She approaches research with strong communication and interpersonal skills, connecting careful observation with the people and decisions that move a project forward.",
+        "detail": "Research assistant breeder at ORBI Seeds · Bengaluru"
+      }
+    ]
+  },
+  "blog": {
+    "topline": "Journal",
+    "kicker": "Travel diary / 33 frames",
+    "title": "Notes from the road.",
+    "intro": "A collage of passing landscapes, soft arrivals, and the small emotions that stay long after the journey has moved on."
+  },
+  "contact": {
+    "topline": "Contact",
+    "kicker": "Contact",
+    "title": "Let’s make something with feeling.",
+    "intro": "For commissions, exhibitions, editorial work, or a thoughtful collaboration, send a note and tell me what you are imagining.",
+    "availability": "Currently welcoming select commissions, gallery features, and creative collaborations."
+  },
+  "artworks": [
+    {
+      "slug": "golden-silence",
+      "image": "/images/painting01.jpg",
+      "aspectRatio": "3 / 4",
+      "type": "Photography",
+      "title": "Golden Silence",
+      "description": "Soft morning light, quiet architecture, and a stillness that turns a fleeting scene into memory.",
+      "details": "A study of the hour when warm light gives familiar spaces a new kind of quiet."
+    },
+    {
+      "slug": "monsoon-bloom",
+      "image": "/images/painting02.jpg",
+      "aspectRatio": "3 / 4",
+      "type": "Painting",
+      "title": "Sunny Day on Beach",
+      "description": "Layered color fields inspired by rain-soaked gardens and petals holding the last of the storm.",
+      "details": "Paint, water, and saturated color gather into a garden that feels both fleeting and enduring."
+    },
+    {
+      "slug": "city-after-rain",
+      "image": "/images/painting03.jpg",
+      "aspectRatio": "3 / 4",
+      "type": "Photography",
+      "title": "City After Rain",
+      "description": "Reflective streets and neon mist, balancing documentary detail with cinematic atmosphere.",
+      "details": "An evening image about reflections, movement, and the brief glow that follows a storm."
+    },
+    {
+      "slug": "earthsong",
+      "image": "/images/painting08.jpg",
+      "aspectRatio": "4 / 5",
+      "type": "Painting",
+      "title": "Earthsong",
+      "description": "A textured composition of sienna, clay, and ash, echoing handmade pigments and intimate gestures.",
+      "details": "Built from earthy layers, this piece follows the physical rhythm of pigment meeting canvas."
+    },
+    {
+      "slug": "window-light-study",
+      "image": "/images/painting09.jpg",
+      "aspectRatio": "1 / 1",
+      "type": "Photography",
+      "title": "Window Light Study",
+      "description": "Portrait-like still life work that explores shadow edges, fabric folds, and gentle human presence.",
+      "details": "A square meditation on the soft geometry of afternoon light across an intimate interior."
+    },
+    {
+      "slug": "the-unrhythmic-paradox",
+      "image": "/images/painting14.jpg",
+      "aspectRatio": "4 / 5",
+      "type": "Painting",
+      "title": "The Unrhythmic Paradox",
+      "description": "A new study in color, texture, and quiet movement across the canvas.",
+      "details": "Color shifts and irregular marks create a measured tension between stillness and motion."
+    }
+  ],
+  "journal": [
+    {
+      "slug": "scenery01",
+      "image": "/images/scenery01.jpeg",
+      "aspectRatio": "3 / 4",
+      "title": "The First Light Finds Us",
+      "location": "Travel diary / 01",
+      "intro": "A narrow road, a patient horizon, and the feeling that the day has only just begun.",
+      "paragraphs": [
+        "I kept walking until the ordinary became luminous. The light moved gently across the scene, asking for attention rather than explanation. This was the kind of view that made the journey feel personal.",
+        "There was no itinerary for this moment, only the soft rhythm of looking and the quiet pleasure of letting the landscape set the pace. Somewhere between arrival and departure, I found room to breathe.",
+        "I carried a small challenge with me: look again, stay curious, and let the view be different from what I expected. The smallest details stayed longest: a shift in weather, a sound in the distance, a colour I could not name.",
+        "By the time I turned back, the place had become a memory in progress, proof that a brief pause can change the shape of an entire day. I left with less urgency and a wider sense of time, carrying this frame home as a quiet reminder."
+      ]
+    },
+    {
+      "slug": "scenery02",
+      "image": "/images/scenery02.jpeg",
+      "aspectRatio": "4 / 9",
+      "title": "A Road With No Hurry",
+      "location": "Travel diary / 02",
+      "intro": "The last colour of evening settles over the landscape like a secret worth keeping.",
+      "paragraphs": [
+        "I kept walking until the ordinary became luminous. The light moved gently across the scene, asking for attention rather than explanation. This was the kind of view that made the journey feel personal.",
+        "There was no itinerary for this moment, only the soft rhythm of looking and the quiet pleasure of letting the landscape set the pace. Somewhere between arrival and departure, I found room to breathe.",
+        "I carried a small challenge with me: look again, stay curious, and let the view be different from what I expected. The smallest details stayed longest: a shift in weather, a sound in the distance, a colour I could not name.",
+        "By the time I turned back, the place had become a memory in progress, proof that a brief pause can change the shape of an entire day. I left with less urgency and a wider sense of time, carrying this frame home as a quiet reminder."
+      ]
+    },
+    {
+      "slug": "scenery03",
+      "image": "/images/scenery03.jpeg",
+      "aspectRatio": "4 / 9",
+      "title": "Where The Air Turns Quiet",
+      "location": "Travel diary / 03",
+      "intro": "A small pause in the middle of the map, where stillness becomes part of the journey.",
+      "paragraphs": [
+        "I kept walking until the ordinary became luminous. The light moved gently across the scene, asking for attention rather than explanation. This was the kind of view that made the journey feel personal.",
+        "There was no itinerary for this moment, only the soft rhythm of looking and the quiet pleasure of letting the landscape set the pace. Somewhere between arrival and departure, I found room to breathe.",
+        "I carried a small challenge with me: look again, stay curious, and let the view be different from what I expected. The smallest details stayed longest: a shift in weather, a sound in the distance, a colour I could not name.",
+        "By the time I turned back, the place had become a memory in progress, proof that a brief pause can change the shape of an entire day. I left with less urgency and a wider sense of time, carrying this frame home as a quiet reminder."
+      ]
+    },
+    {
+      "slug": "scenery04",
+      "image": "/images/scenery04.jpeg",
+      "aspectRatio": "4 / 9",
+      "title": "The Colour Of Leaving",
+      "location": "Travel diary / 04",
+      "intro": "A fleeting view from journey 04, held here before it changes.",
+      "paragraphs": [
+        "I kept walking until the ordinary became luminous. The light moved gently across the scene, asking for attention rather than explanation. This was the kind of view that made the journey feel personal.",
+        "There was no itinerary for this moment, only the soft rhythm of looking and the quiet pleasure of letting the landscape set the pace. Somewhere between arrival and departure, I found room to breathe.",
+        "I carried a small challenge with me: look again, stay curious, and let the view be different from what I expected. The smallest details stayed longest: a shift in weather, a sound in the distance, a colour I could not name.",
+        "By the time I turned back, the place had become a memory in progress, proof that a brief pause can change the shape of an entire day. I left with less urgency and a wider sense of time, carrying this frame home as a quiet reminder."
+      ]
+    },
+    {
+      "slug": "scenery05",
+      "image": "/images/scenery05.jpeg",
+      "aspectRatio": "4 / 9",
+      "title": "A Little Farther Than Planned",
+      "location": "Travel diary / 05",
+      "intro": "A fleeting view from journey 05, held here before it changes.",
+      "paragraphs": [
+        "I kept walking until the ordinary became luminous. The light moved gently across the scene, asking for attention rather than explanation. This was the kind of view that made the journey feel personal.",
+        "There was no itinerary for this moment, only the soft rhythm of looking and the quiet pleasure of letting the landscape set the pace. Somewhere between arrival and departure, I found room to breathe.",
+        "I carried a small challenge with me: look again, stay curious, and let the view be different from what I expected. The smallest details stayed longest: a shift in weather, a sound in the distance, a colour I could not name.",
+        "By the time I turned back, the place had become a memory in progress, proof that a brief pause can change the shape of an entire day. I left with less urgency and a wider sense of time, carrying this frame home as a quiet reminder."
+      ]
+    },
+    {
+      "slug": "scenery06",
+      "image": "/images/scenery06.jpeg",
+      "aspectRatio": "4 / 9",
+      "title": "The Sky Keeps Its Promise",
+      "location": "Travel diary / 06",
+      "intro": "A fleeting view from journey 06, held here before it changes.",
+      "paragraphs": [
+        "I kept walking until the ordinary became luminous. The light moved gently across the scene, asking for attention rather than explanation. This was the kind of view that made the journey feel personal.",
+        "There was no itinerary for this moment, only the soft rhythm of looking and the quiet pleasure of letting the landscape set the pace. Somewhere between arrival and departure, I found room to breathe.",
+        "I carried a small challenge with me: look again, stay curious, and let the view be different from what I expected. The smallest details stayed longest: a shift in weather, a sound in the distance, a colour I could not name.",
+        "By the time I turned back, the place had become a memory in progress, proof that a brief pause can change the shape of an entire day. I left with less urgency and a wider sense of time, carrying this frame home as a quiet reminder."
+      ]
+    },
+    {
+      "slug": "scenery07",
+      "image": "/images/scenery07.jpeg",
+      "aspectRatio": "16 / 7",
+      "title": "Postcard From A Patient Morning",
+      "location": "Travel diary / 07",
+      "intro": "A fleeting view from journey 07, held here before it changes.",
+      "paragraphs": [
+        "I kept walking until the ordinary became luminous. The light moved gently across the scene, asking for attention rather than explanation. This was the kind of view that made the journey feel personal.",
+        "There was no itinerary for this moment, only the soft rhythm of looking and the quiet pleasure of letting the landscape set the pace. Somewhere between arrival and departure, I found room to breathe.",
+        "I carried a small challenge with me: look again, stay curious, and let the view be different from what I expected. The smallest details stayed longest: a shift in weather, a sound in the distance, a colour I could not name.",
+        "By the time I turned back, the place had become a memory in progress, proof that a brief pause can change the shape of an entire day. I left with less urgency and a wider sense of time, carrying this frame home as a quiet reminder."
+      ]
+    },
+    {
+      "slug": "scenery08",
+      "image": "/images/scenery08.jpeg",
+      "aspectRatio": "9 / 16",
+      "title": "The World In Soft Focus",
+      "location": "Travel diary / 08",
+      "intro": "A fleeting view from journey 08, held here before it changes.",
+      "paragraphs": [
+        "I kept walking until the ordinary became luminous. The light moved gently across the scene, asking for attention rather than explanation. This was the kind of view that made the journey feel personal.",
+        "There was no itinerary for this moment, only the soft rhythm of looking and the quiet pleasure of letting the landscape set the pace. Somewhere between arrival and departure, I found room to breathe.",
+        "I carried a small challenge with me: look again, stay curious, and let the view be different from what I expected. The smallest details stayed longest: a shift in weather, a sound in the distance, a colour I could not name.",
+        "By the time I turned back, the place had become a memory in progress, proof that a brief pause can change the shape of an entire day. I left with less urgency and a wider sense of time, carrying this frame home as a quiet reminder."
+      ]
+    },
+    {
+      "slug": "scenery09",
+      "image": "/images/scenery09.jpeg",
+      "aspectRatio": "9 / 16",
+      "title": "A Pause Between Places",
+      "location": "Travel diary / 09",
+      "intro": "A fleeting view from journey 09, held here before it changes.",
+      "paragraphs": [
+        "I kept walking until the ordinary became luminous. The light moved gently across the scene, asking for attention rather than explanation. This was the kind of view that made the journey feel personal.",
+        "There was no itinerary for this moment, only the soft rhythm of looking and the quiet pleasure of letting the landscape set the pace. Somewhere between arrival and departure, I found room to breathe.",
+        "I carried a small challenge with me: look again, stay curious, and let the view be different from what I expected. The smallest details stayed longest: a shift in weather, a sound in the distance, a colour I could not name.",
+        "By the time I turned back, the place had become a memory in progress, proof that a brief pause can change the shape of an entire day. I left with less urgency and a wider sense of time, carrying this frame home as a quiet reminder."
+      ]
+    },
+    {
+      "slug": "scenery10",
+      "image": "/images/scenery10.jpeg",
+      "aspectRatio": "4 / 9",
+      "title": "Notes From The Blue Hour",
+      "location": "Travel diary / 10",
+      "intro": "A fleeting view from journey 10, held here before it changes.",
+      "paragraphs": [
+        "I kept walking until the ordinary became luminous. The light moved gently across the scene, asking for attention rather than explanation. This was the kind of view that made the journey feel personal.",
+        "There was no itinerary for this moment, only the soft rhythm of looking and the quiet pleasure of letting the landscape set the pace. Somewhere between arrival and departure, I found room to breathe.",
+        "I carried a small challenge with me: look again, stay curious, and let the view be different from what I expected. The smallest details stayed longest: a shift in weather, a sound in the distance, a colour I could not name.",
+        "By the time I turned back, the place had become a memory in progress, proof that a brief pause can change the shape of an entire day. I left with less urgency and a wider sense of time, carrying this frame home as a quiet reminder."
+      ]
+    },
+    {
+      "slug": "scenery11",
+      "image": "/images/scenery11.jpeg",
+      "aspectRatio": "4 / 9",
+      "title": "The Landscape Remembers",
+      "location": "Travel diary / 11",
+      "intro": "A fleeting view from journey 11, held here before it changes.",
+      "paragraphs": [
+        "I kept walking until the ordinary became luminous. The light moved gently across the scene, asking for attention rather than explanation. This was the kind of view that made the journey feel personal.",
+        "There was no itinerary for this moment, only the soft rhythm of looking and the quiet pleasure of letting the landscape set the pace. Somewhere between arrival and departure, I found room to breathe.",
+        "I carried a small challenge with me: look again, stay curious, and let the view be different from what I expected. The smallest details stayed longest: a shift in weather, a sound in the distance, a colour I could not name.",
+        "By the time I turned back, the place had become a memory in progress, proof that a brief pause can change the shape of an entire day. I left with less urgency and a wider sense of time, carrying this frame home as a quiet reminder."
+      ]
+    },
+    {
+      "slug": "scenery12",
+      "image": "/images/scenery12.jpeg",
+      "aspectRatio": "4 / 9",
+      "title": "A Window Open To Weather",
+      "location": "Travel diary / 12",
+      "intro": "A fleeting view from journey 12, held here before it changes.",
+      "paragraphs": [
+        "I kept walking until the ordinary became luminous. The light moved gently across the scene, asking for attention rather than explanation. This was the kind of view that made the journey feel personal.",
+        "There was no itinerary for this moment, only the soft rhythm of looking and the quiet pleasure of letting the landscape set the pace. Somewhere between arrival and departure, I found room to breathe.",
+        "I carried a small challenge with me: look again, stay curious, and let the view be different from what I expected. The smallest details stayed longest: a shift in weather, a sound in the distance, a colour I could not name.",
+        "By the time I turned back, the place had become a memory in progress, proof that a brief pause can change the shape of an entire day. I left with less urgency and a wider sense of time, carrying this frame home as a quiet reminder."
+      ]
+    },
+    {
+      "slug": "scenery13",
+      "image": "/images/scenery13.jpeg",
+      "aspectRatio": "4 / 9",
+      "title": "Walking Toward The Warm Side",
+      "location": "Travel diary / 13",
+      "intro": "A fleeting view from journey 13, held here before it changes.",
+      "paragraphs": [
+        "I kept walking until the ordinary became luminous. The light moved gently across the scene, asking for attention rather than explanation. This was the kind of view that made the journey feel personal.",
+        "There was no itinerary for this moment, only the soft rhythm of looking and the quiet pleasure of letting the landscape set the pace. Somewhere between arrival and departure, I found room to breathe.",
+        "I carried a small challenge with me: look again, stay curious, and let the view be different from what I expected. The smallest details stayed longest: a shift in weather, a sound in the distance, a colour I could not name.",
+        "By the time I turned back, the place had become a memory in progress, proof that a brief pause can change the shape of an entire day. I left with less urgency and a wider sense of time, carrying this frame home as a quiet reminder."
+      ]
+    },
+    {
+      "slug": "scenery14",
+      "image": "/images/scenery14.jpeg",
+      "aspectRatio": "3 / 4",
+      "title": "The Long Way Home",
+      "location": "Travel diary / 14",
+      "intro": "A fleeting view from journey 14, held here before it changes.",
+      "paragraphs": [
+        "I kept walking until the ordinary became luminous. The light moved gently across the scene, asking for attention rather than explanation. This was the kind of view that made the journey feel personal.",
+        "There was no itinerary for this moment, only the soft rhythm of looking and the quiet pleasure of letting the landscape set the pace. Somewhere between arrival and departure, I found room to breathe.",
+        "I carried a small challenge with me: look again, stay curious, and let the view be different from what I expected. The smallest details stayed longest: a shift in weather, a sound in the distance, a colour I could not name.",
+        "By the time I turned back, the place had become a memory in progress, proof that a brief pause can change the shape of an entire day. I left with less urgency and a wider sense of time, carrying this frame home as a quiet reminder."
+      ]
+    },
+    {
+      "slug": "scenery15",
+      "image": "/images/scenery15.jpeg",
+      "aspectRatio": "3 / 4",
+      "title": "A Small Miracle Of Distance",
+      "location": "Travel diary / 15",
+      "intro": "A fleeting view from journey 15, held here before it changes.",
+      "paragraphs": [
+        "I kept walking until the ordinary became luminous. The light moved gently across the scene, asking for attention rather than explanation. This was the kind of view that made the journey feel personal.",
+        "There was no itinerary for this moment, only the soft rhythm of looking and the quiet pleasure of letting the landscape set the pace. Somewhere between arrival and departure, I found room to breathe.",
+        "I carried a small challenge with me: look again, stay curious, and let the view be different from what I expected. The smallest details stayed longest: a shift in weather, a sound in the distance, a colour I could not name.",
+        "By the time I turned back, the place had become a memory in progress, proof that a brief pause can change the shape of an entire day. I left with less urgency and a wider sense of time, carrying this frame home as a quiet reminder."
+      ]
+    },
+    {
+      "slug": "scenery16",
+      "image": "/images/scenery16.jpeg",
+      "aspectRatio": "3 / 4",
+      "title": "When The Clouds Come Lower",
+      "location": "Travel diary / 16",
+      "intro": "A fleeting view from journey 16, held here before it changes.",
+      "paragraphs": [
+        "I kept walking until the ordinary became luminous. The light moved gently across the scene, asking for attention rather than explanation. This was the kind of view that made the journey feel personal.",
+        "There was no itinerary for this moment, only the soft rhythm of looking and the quiet pleasure of letting the landscape set the pace. Somewhere between arrival and departure, I found room to breathe.",
+        "I carried a small challenge with me: look again, stay curious, and let the view be different from what I expected. The smallest details stayed longest: a shift in weather, a sound in the distance, a colour I could not name.",
+        "By the time I turned back, the place had become a memory in progress, proof that a brief pause can change the shape of an entire day. I left with less urgency and a wider sense of time, carrying this frame home as a quiet reminder."
+      ]
+    },
+    {
+      "slug": "scenery17",
+      "image": "/images/scenery17.jpeg",
+      "aspectRatio": "3 / 4",
+      "title": "A View Worth Missing The Train For",
+      "location": "Travel diary / 17",
+      "intro": "A fleeting view from journey 17, held here before it changes.",
+      "paragraphs": [
+        "I kept walking until the ordinary became luminous. The light moved gently across the scene, asking for attention rather than explanation. This was the kind of view that made the journey feel personal.",
+        "There was no itinerary for this moment, only the soft rhythm of looking and the quiet pleasure of letting the landscape set the pace. Somewhere between arrival and departure, I found room to breathe.",
+        "I carried a small challenge with me: look again, stay curious, and let the view be different from what I expected. The smallest details stayed longest: a shift in weather, a sound in the distance, a colour I could not name.",
+        "By the time I turned back, the place had become a memory in progress, proof that a brief pause can change the shape of an entire day. I left with less urgency and a wider sense of time, carrying this frame home as a quiet reminder."
+      ]
+    },
+    {
+      "slug": "scenery18",
+      "image": "/images/scenery18.jpeg",
+      "aspectRatio": "9 / 16",
+      "title": "The Road Begins Again",
+      "location": "Travel diary / 18",
+      "intro": "A fleeting view from journey 18, held here before it changes.",
+      "paragraphs": [
+        "I kept walking until the ordinary became luminous. The light moved gently across the scene, asking for attention rather than explanation. This was the kind of view that made the journey feel personal.",
+        "There was no itinerary for this moment, only the soft rhythm of looking and the quiet pleasure of letting the landscape set the pace. Somewhere between arrival and departure, I found room to breathe.",
+        "I carried a small challenge with me: look again, stay curious, and let the view be different from what I expected. The smallest details stayed longest: a shift in weather, a sound in the distance, a colour I could not name.",
+        "By the time I turned back, the place had become a memory in progress, proof that a brief pause can change the shape of an entire day. I left with less urgency and a wider sense of time, carrying this frame home as a quiet reminder."
+      ]
+    },
+    {
+      "slug": "scenery19",
+      "image": "/images/scenery19.jpeg",
+      "aspectRatio": "9 / 16",
+      "title": "Borrowed Light",
+      "location": "Travel diary / 19",
+      "intro": "A fleeting view from journey 19, held here before it changes.",
+      "paragraphs": [
+        "I kept walking until the ordinary became luminous. The light moved gently across the scene, asking for attention rather than explanation. This was the kind of view that made the journey feel personal.",
+        "There was no itinerary for this moment, only the soft rhythm of looking and the quiet pleasure of letting the landscape set the pace. Somewhere between arrival and departure, I found room to breathe.",
+        "I carried a small challenge with me: look again, stay curious, and let the view be different from what I expected. The smallest details stayed longest: a shift in weather, a sound in the distance, a colour I could not name.",
+        "By the time I turned back, the place had become a memory in progress, proof that a brief pause can change the shape of an entire day. I left with less urgency and a wider sense of time, carrying this frame home as a quiet reminder."
+      ]
+    },
+    {
+      "slug": "scenery20",
+      "image": "/images/scenery20.jpeg",
+      "aspectRatio": "4 / 3",
+      "title": "A Quiet Kind Of Brave",
+      "location": "Travel diary / 20",
+      "intro": "A fleeting view from journey 20, held here before it changes.",
+      "paragraphs": [
+        "I kept walking until the ordinary became luminous. The light moved gently across the scene, asking for attention rather than explanation. This was the kind of view that made the journey feel personal.",
+        "There was no itinerary for this moment, only the soft rhythm of looking and the quiet pleasure of letting the landscape set the pace. Somewhere between arrival and departure, I found room to breathe.",
+        "I carried a small challenge with me: look again, stay curious, and let the view be different from what I expected. The smallest details stayed longest: a shift in weather, a sound in the distance, a colour I could not name.",
+        "By the time I turned back, the place had become a memory in progress, proof that a brief pause can change the shape of an entire day. I left with less urgency and a wider sense of time, carrying this frame home as a quiet reminder."
+      ]
+    },
+    {
+      "slug": "scenery21",
+      "image": "/images/scenery21.jpeg",
+      "aspectRatio": "4 / 3",
+      "title": "Where The Green Deepens",
+      "location": "Travel diary / 21",
+      "intro": "A fleeting view from journey 21, held here before it changes.",
+      "paragraphs": [
+        "I kept walking until the ordinary became luminous. The light moved gently across the scene, asking for attention rather than explanation. This was the kind of view that made the journey feel personal.",
+        "There was no itinerary for this moment, only the soft rhythm of looking and the quiet pleasure of letting the landscape set the pace. Somewhere between arrival and departure, I found room to breathe.",
+        "I carried a small challenge with me: look again, stay curious, and let the view be different from what I expected. The smallest details stayed longest: a shift in weather, a sound in the distance, a colour I could not name.",
+        "By the time I turned back, the place had become a memory in progress, proof that a brief pause can change the shape of an entire day. I left with less urgency and a wider sense of time, carrying this frame home as a quiet reminder."
+      ]
+    },
+    {
+      "slug": "scenery22",
+      "image": "/images/scenery22.jpeg",
+      "aspectRatio": "9 / 16",
+      "title": "A Day Held In Amber",
+      "location": "Travel diary / 22",
+      "intro": "A fleeting view from journey 22, held here before it changes.",
+      "paragraphs": [
+        "I kept walking until the ordinary became luminous. The light moved gently across the scene, asking for attention rather than explanation. This was the kind of view that made the journey feel personal.",
+        "There was no itinerary for this moment, only the soft rhythm of looking and the quiet pleasure of letting the landscape set the pace. Somewhere between arrival and departure, I found room to breathe.",
+        "I carried a small challenge with me: look again, stay curious, and let the view be different from what I expected. The smallest details stayed longest: a shift in weather, a sound in the distance, a colour I could not name.",
+        "By the time I turned back, the place had become a memory in progress, proof that a brief pause can change the shape of an entire day. I left with less urgency and a wider sense of time, carrying this frame home as a quiet reminder."
+      ]
+    },
+    {
+      "slug": "scenery23",
+      "image": "/images/scenery23.jpeg",
+      "aspectRatio": "9 / 16",
+      "title": "The Shape Of An Afternoon",
+      "location": "Travel diary / 23",
+      "intro": "A fleeting view from journey 23, held here before it changes.",
+      "paragraphs": [
+        "I kept walking until the ordinary became luminous. The light moved gently across the scene, asking for attention rather than explanation. This was the kind of view that made the journey feel personal.",
+        "There was no itinerary for this moment, only the soft rhythm of looking and the quiet pleasure of letting the landscape set the pace. Somewhere between arrival and departure, I found room to breathe.",
+        "I carried a small challenge with me: look again, stay curious, and let the view be different from what I expected. The smallest details stayed longest: a shift in weather, a sound in the distance, a colour I could not name.",
+        "By the time I turned back, the place had become a memory in progress, proof that a brief pause can change the shape of an entire day. I left with less urgency and a wider sense of time, carrying this frame home as a quiet reminder."
+      ]
+    },
+    {
+      "slug": "scenery24",
+      "image": "/images/scenery24.jpeg",
+      "aspectRatio": "4 / 9",
+      "title": "Somewhere Past The Familiar",
+      "location": "Travel diary / 24",
+      "intro": "A fleeting view from journey 24, held here before it changes.",
+      "paragraphs": [
+        "I kept walking until the ordinary became luminous. The light moved gently across the scene, asking for attention rather than explanation. This was the kind of view that made the journey feel personal.",
+        "There was no itinerary for this moment, only the soft rhythm of looking and the quiet pleasure of letting the landscape set the pace. Somewhere between arrival and departure, I found room to breathe.",
+        "I carried a small challenge with me: look again, stay curious, and let the view be different from what I expected. The smallest details stayed longest: a shift in weather, a sound in the distance, a colour I could not name.",
+        "By the time I turned back, the place had become a memory in progress, proof that a brief pause can change the shape of an entire day. I left with less urgency and a wider sense of time, carrying this frame home as a quiet reminder."
+      ]
+    },
+    {
+      "slug": "scenery25",
+      "image": "/images/scenery25.jpeg",
+      "aspectRatio": "3 / 4",
+      "title": "The View After The Turn",
+      "location": "Travel diary / 25",
+      "intro": "A fleeting view from journey 25, held here before it changes.",
+      "paragraphs": [
+        "I kept walking until the ordinary became luminous. The light moved gently across the scene, asking for attention rather than explanation. This was the kind of view that made the journey feel personal.",
+        "There was no itinerary for this moment, only the soft rhythm of looking and the quiet pleasure of letting the landscape set the pace. Somewhere between arrival and departure, I found room to breathe.",
+        "I carried a small challenge with me: look again, stay curious, and let the view be different from what I expected. The smallest details stayed longest: a shift in weather, a sound in the distance, a colour I could not name.",
+        "By the time I turned back, the place had become a memory in progress, proof that a brief pause can change the shape of an entire day. I left with less urgency and a wider sense of time, carrying this frame home as a quiet reminder."
+      ]
+    },
+    {
+      "slug": "scenery26",
+      "image": "/images/scenery26.jpeg",
+      "aspectRatio": "4 / 3",
+      "title": "A Memory Still Becoming",
+      "location": "Travel diary / 26",
+      "intro": "A fleeting view from journey 26, held here before it changes.",
+      "paragraphs": [
+        "I kept walking until the ordinary became luminous. The light moved gently across the scene, asking for attention rather than explanation. This was the kind of view that made the journey feel personal.",
+        "There was no itinerary for this moment, only the soft rhythm of looking and the quiet pleasure of letting the landscape set the pace. Somewhere between arrival and departure, I found room to breathe.",
+        "I carried a small challenge with me: look again, stay curious, and let the view be different from what I expected. The smallest details stayed longest: a shift in weather, a sound in the distance, a colour I could not name.",
+        "By the time I turned back, the place had become a memory in progress, proof that a brief pause can change the shape of an entire day. I left with less urgency and a wider sense of time, carrying this frame home as a quiet reminder."
+      ]
+    },
+    {
+      "slug": "scenery27",
+      "image": "/images/scenery27.jpeg",
+      "aspectRatio": "3 / 4",
+      "title": "The Gentle Work Of Wandering",
+      "location": "Travel diary / 27",
+      "intro": "A fleeting view from journey 27, held here before it changes.",
+      "paragraphs": [
+        "I kept walking until the ordinary became luminous. The light moved gently across the scene, asking for attention rather than explanation. This was the kind of view that made the journey feel personal.",
+        "There was no itinerary for this moment, only the soft rhythm of looking and the quiet pleasure of letting the landscape set the pace. Somewhere between arrival and departure, I found room to breathe.",
+        "I carried a small challenge with me: look again, stay curious, and let the view be different from what I expected. The smallest details stayed longest: a shift in weather, a sound in the distance, a colour I could not name.",
+        "By the time I turned back, the place had become a memory in progress, proof that a brief pause can change the shape of an entire day. I left with less urgency and a wider sense of time, carrying this frame home as a quiet reminder."
+      ]
+    },
+    {
+      "slug": "scenery28",
+      "image": "/images/scenery28.jpeg",
+      "aspectRatio": "16 / 7",
+      "title": "A Horizon To Carry Home",
+      "location": "Travel diary / 28",
+      "intro": "A fleeting view from journey 28, held here before it changes.",
+      "paragraphs": [
+        "I kept walking until the ordinary became luminous. The light moved gently across the scene, asking for attention rather than explanation. This was the kind of view that made the journey feel personal.",
+        "There was no itinerary for this moment, only the soft rhythm of looking and the quiet pleasure of letting the landscape set the pace. Somewhere between arrival and departure, I found room to breathe.",
+        "I carried a small challenge with me: look again, stay curious, and let the view be different from what I expected. The smallest details stayed longest: a shift in weather, a sound in the distance, a colour I could not name.",
+        "By the time I turned back, the place had become a memory in progress, proof that a brief pause can change the shape of an entire day. I left with less urgency and a wider sense of time, carrying this frame home as a quiet reminder."
+      ]
+    },
+    {
+      "slug": "scenery29",
+      "image": "/images/scenery29.jpeg",
+      "aspectRatio": "3 / 4",
+      "title": "Before The Last Light",
+      "location": "Travel diary / 29",
+      "intro": "A fleeting view from journey 29, held here before it changes.",
+      "paragraphs": [
+        "I kept walking until the ordinary became luminous. The light moved gently across the scene, asking for attention rather than explanation. This was the kind of view that made the journey feel personal.",
+        "There was no itinerary for this moment, only the soft rhythm of looking and the quiet pleasure of letting the landscape set the pace. Somewhere between arrival and departure, I found room to breathe.",
+        "I carried a small challenge with me: look again, stay curious, and let the view be different from what I expected. The smallest details stayed longest: a shift in weather, a sound in the distance, a colour I could not name.",
+        "By the time I turned back, the place had become a memory in progress, proof that a brief pause can change the shape of an entire day. I left with less urgency and a wider sense of time, carrying this frame home as a quiet reminder."
+      ]
+    },
+    {
+      "slug": "scenery30",
+      "image": "/images/scenery30.jpeg",
+      "aspectRatio": "3 / 4",
+      "title": "The Earth Says Stay",
+      "location": "Travel diary / 30",
+      "intro": "A fleeting view from journey 30, held here before it changes.",
+      "paragraphs": [
+        "I kept walking until the ordinary became luminous. The light moved gently across the scene, asking for attention rather than explanation. This was the kind of view that made the journey feel personal.",
+        "There was no itinerary for this moment, only the soft rhythm of looking and the quiet pleasure of letting the landscape set the pace. Somewhere between arrival and departure, I found room to breathe.",
+        "I carried a small challenge with me: look again, stay curious, and let the view be different from what I expected. The smallest details stayed longest: a shift in weather, a sound in the distance, a colour I could not name.",
+        "By the time I turned back, the place had become a memory in progress, proof that a brief pause can change the shape of an entire day. I left with less urgency and a wider sense of time, carrying this frame home as a quiet reminder."
+      ]
+    },
+    {
+      "slug": "scenery31",
+      "image": "/images/scenery31.jpeg",
+      "aspectRatio": "5 / 6",
+      "title": "A Place That Changes You",
+      "location": "Travel diary / 31",
+      "intro": "A fleeting view from journey 31, held here before it changes.",
+      "paragraphs": [
+        "I kept walking until the ordinary became luminous. The light moved gently across the scene, asking for attention rather than explanation. This was the kind of view that made the journey feel personal.",
+        "There was no itinerary for this moment, only the soft rhythm of looking and the quiet pleasure of letting the landscape set the pace. Somewhere between arrival and departure, I found room to breathe.",
+        "I carried a small challenge with me: look again, stay curious, and let the view be different from what I expected. The smallest details stayed longest: a shift in weather, a sound in the distance, a colour I could not name.",
+        "By the time I turned back, the place had become a memory in progress, proof that a brief pause can change the shape of an entire day. I left with less urgency and a wider sense of time, carrying this frame home as a quiet reminder."
+      ]
+    },
+    {
+      "slug": "scenery32",
+      "image": "/images/scenery32.jpeg",
+      "aspectRatio": "3 / 4",
+      "title": "The Distance Between Two Breaths",
+      "location": "Travel diary / 32",
+      "intro": "A fleeting view from journey 32, held here before it changes.",
+      "paragraphs": [
+        "I kept walking until the ordinary became luminous. The light moved gently across the scene, asking for attention rather than explanation. This was the kind of view that made the journey feel personal.",
+        "There was no itinerary for this moment, only the soft rhythm of looking and the quiet pleasure of letting the landscape set the pace. Somewhere between arrival and departure, I found room to breathe.",
+        "I carried a small challenge with me: look again, stay curious, and let the view be different from what I expected. The smallest details stayed longest: a shift in weather, a sound in the distance, a colour I could not name.",
+        "By the time I turned back, the place had become a memory in progress, proof that a brief pause can change the shape of an entire day. I left with less urgency and a wider sense of time, carrying this frame home as a quiet reminder."
+      ]
+    },
+    {
+      "slug": "scenery33",
+      "image": "/images/scenery33.jpeg",
+      "aspectRatio": "9 / 16",
+      "title": "A Final Note From The Road",
+      "location": "Travel diary / 33",
+      "intro": "A fleeting view from journey 33, held here before it changes.",
+      "paragraphs": [
+        "I kept walking until the ordinary became luminous. The light moved gently across the scene, asking for attention rather than explanation. This was the kind of view that made the journey feel personal.",
+        "There was no itinerary for this moment, only the soft rhythm of looking and the quiet pleasure of letting the landscape set the pace. Somewhere between arrival and departure, I found room to breathe.",
+        "I carried a small challenge with me: look again, stay curious, and let the view be different from what I expected. The smallest details stayed longest: a shift in weather, a sound in the distance, a colour I could not name.",
+        "By the time I turned back, the place had become a memory in progress, proof that a brief pause can change the shape of an entire day. I left with less urgency and a wider sense of time, carrying this frame home as a quiet reminder."
+      ]
+    }
+  ]
+}

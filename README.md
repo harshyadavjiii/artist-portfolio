@@ -51,7 +51,7 @@ Before starting, install:
 3. A modern browser such as Chrome, Edge, Firefox, or Safari.
 4. The project source folder and its local `public/images` media assets.
 
-No database, external CMS, API key, environment variable, or backend service is currently required. All portfolio content is stored in the source code and all referenced production media is stored locally under `public/images`.
+The site includes a small file-backed content backend. Content is stored in `content/site-content.json`, accessed through a server-only data layer, and edited through the protected `/admin` route. Set `ADMIN_PASSWORD` before using the editor. Media remains local under `public/images`.
 
 ## Installation And First Run
 
@@ -91,6 +91,13 @@ Use the navigation or open these URLs directly:
 | `/contact` | Contact and availability information |
 | `/paintings/golden-silence` | Example artwork detail page |
 | `/scenery/scenery01` | Example scenery diary detail page |
+| `/admin` | Protected author editor for all site sections |
+
+Before opening `/admin`, create a local `.env.local` from `.env.example` and set a strong `ADMIN_PASSWORD`:
+
+```bash
+Copy-Item .env.example .env.local
+```
 
 ### 4. Run the quality checks
 
@@ -143,46 +150,17 @@ artist-portfolio/
 
 ## Content Management For The Client
 
-This version is intentionally file-based, so content updates are made in the repository rather than through an admin dashboard.
+Sign in at `/admin` with `ADMIN_PASSWORD`, or use the named editor account configured with `ADMIN_USERNAME` and `ADMIN_USER_PASSWORD`. The editor exposes these sections:
 
-### Updating artwork
+- `settings`: site title, SEO description, and email.
+- `home`: hero copy, highlights, artist note, and showcase scenery slugs.
+- `about`: profile copy, values, and journey cards.
+- `blog`: journal heading and introduction.
+- `contact`: contact heading, introduction, and availability.
+- `artworks`: every painting or photography preview and detail record.
+- `journal`: every blog/scenery preview and its full four-note entry.
 
-Edit `app/portfolio-data.ts`. Each artwork has:
-
-- `slug`: URL-safe identifier used in `/paintings/[slug]`.
-- `image`: path to an image in `public`, for example `/images/painting01.jpg`.
-- `aspectRatio`: display ratio such as `3 / 4` or `1 / 1`.
-- `type`: `Photography` or `Painting`.
-- `title`: visible work title.
-- `description`: short showcase and detail-page description.
-- `details`: longer detail-page text.
-
-When adding an artwork, add its image to `public/images`, then add a complete record to the `artworks` array. The dynamic route automatically creates its static page through `generateStaticParams`.
-
-### Updating scenery and journal entries
-
-Edit `app/scenery-data.ts` for scenery detail content. The file currently generates 33 entries from title, aspect-ratio, and copy arrays. The image naming convention is:
-
-```text
-public/images/scenery01.jpeg
-public/images/scenery02.jpeg
-...
-public/images/scenery33.jpeg
-```
-
-The Journal index has its own presentation order, titles, and excerpts in `app/blog/page.tsx`. If the number of entries changes, update the related arrays and the journal order together.
-
-### Updating the email address
-
-The current email, `swati@somewhere.com`, is a placeholder used in `app/page.tsx` and `app/contact/page.tsx`. Replace both occurrences with the final client email before launch. Also check the contact card in the home page and any future metadata or social links.
-
-### Updating profile text and images
-
-- Home introduction and highlights: `app/page.tsx`.
-- About copy and journey sections: `app/about/page.tsx`.
-- About portrait: `public/images/avataar.jpeg`.
-- About journey images: paths near the top of `app/about/page.tsx`.
-- Site title and SEO description: `app/layout.tsx`.
+Each section is JSON so records stay structured and easy to move or back up. Saving a section immediately revalidates the public routes. Images are still uploaded by placing them in `public/images` and then entering their path in the relevant record. The public API is read-only without a session; the section endpoints are `GET/PUT /api/content/:section`.
 
 ## Media Guidelines
 

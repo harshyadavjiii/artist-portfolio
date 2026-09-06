@@ -1,11 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { artworks } from "../../portfolio-data";
+import { getContent } from "../../../lib/content";
 
-export function generateStaticParams() {
-  return artworks.map((artwork) => ({ slug: artwork.slug }));
-}
+export const dynamic = "force-dynamic";
 
 export default async function ArtworkPage({
   params,
@@ -13,6 +11,7 @@ export default async function ArtworkPage({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
+  const { artworks } = await getContent();
   const artwork = artworks.find((item) => item.slug === slug);
 
   if (!artwork) notFound();

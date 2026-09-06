@@ -1,12 +1,14 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import SiteNav from "./site-nav";
+import { getContent } from "../lib/content";
 
-export const metadata: Metadata = {
-  title: "Swati Yadav | Photography & Paintings",
-  description:
-    "A luminous artist portfolio for Swati Yadav featuring expressive photography, paintings, and contact information.",
-};
+export const dynamic = "force-dynamic";
+
+export async function generateMetadata(): Promise<Metadata> {
+  const { settings } = await getContent();
+  return { title: settings.siteTitle, description: settings.siteDescription };
+}
 
 export default function RootLayout({
   children,

@@ -193,7 +193,11 @@ The project can be deployed to any hosting provider that supports Next.js 16. Ve
 2. Import the repository into Vercel.
 3. Keep the detected framework as Next.js.
 4. Use `npm install` for installation and `npm run build` for the build command if Vercel does not detect them automatically.
-5. Deploy and test every route, image, theme switch, and email link on the live domain.
+5. Open the project in Vercel, go to **Settings > Environment Variables**, and add `ADMIN_PASSWORD` with a strong, private value. Select **Production** (and **Preview** if you also want to test the editor on preview deployments).
+6. Save the variable, then create a new deployment. Environment variable changes do not apply to an already-built deployment.
+7. Open `/admin/login` on the live domain and sign in with the value of `ADMIN_PASSWORD`.
+
+You can use the optional named account instead by adding both `ADMIN_USERNAME` and `ADMIN_USER_PASSWORD`. Do not commit `.env.local` or put either password in client-side code. If `/admin/login` says `ADMIN_PASSWORD is not configured`, the variable is missing from the deployment's selected environment or the deployment has not been rebuilt after it was added.
 
 ### Node.js deployment
 

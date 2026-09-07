@@ -10,7 +10,14 @@ export default async function Home() {
   const { home, settings, artworks, journal } = content;
   const scenerySlugs = home.showcaseScenery;
   const sceneryShowcase = scenerySlugs.map((slug) => journal.find((entry) => entry.slug === slug)).filter((entry) => entry !== undefined);
-  const showcase = [...sceneryShowcase, ...artworks].slice(0, 6);
+  const showcase = [
+    ...sceneryShowcase.map((entry) => ({
+      ...entry,
+      aspectRatio: "3 / 4",
+      type: "Photography" as const,
+    })),
+    ...artworks,
+  ].slice(0, 6);
 
   return (
     <main className="theme-page relative overflow-hidden">
@@ -117,7 +124,7 @@ export default async function Home() {
         </div>
 
         <div className="grid items-start gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {showcase.map((piece) => {
+          {showcase.map((piece, index) => {
             const isScenery = "location" in piece;
             const pieceSlug = piece.slug;
             return (
@@ -142,7 +149,7 @@ export default async function Home() {
                     alt={piece.title}
                     fill
                     sizes="(max-width: 768px) 100vw, 33vw"
-                    className={`${isScenery ? "object-cover" : "object-contain"} transition duration-500 group-hover:scale-[1.02]`}
+                    className={`${index < 3 ? "object-cover" : "object-contain"} transition duration-500 group-hover:scale-[1.02]`}
                   />
                 </div>
               </Link>

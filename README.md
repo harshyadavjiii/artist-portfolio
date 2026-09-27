@@ -11,9 +11,11 @@ A responsive personal portfolio for **Swati Yadav**, presenting her work across 
 <img width="1896" height="916" alt="Screenshot 2026-09-07 090424" src="https://github.com/user-attachments/assets/b65832aa-6aa9-45d3-96e3-f9206f3662b0" />
 
 - An About page covering her personal philosophy, travel interests, agronomy work, and research experience.
+ 
 - A Journal page containing 33 travel diary frames with titles, excerpts, and links to full scenery entries.
 
-<img width="1920" height="1020" alt="Screenshot 2026-09-07 090542" src="https://github.com/user-attachments/assets/e09f598c-713d-4cb9-adaa-cb37bba4a02f" />
+<img width="1897" height="914" alt="image" src="https://github.com/user-attachments/assets/89371a9d-444d-4dab-98f0-ab0baa9c6025" />
+
  
 - A Contact page with an email call-to-action and current availability statement.
 - Detail pages for six featured artworks, including the image, medium/type, description, additional details, and enquiry link.

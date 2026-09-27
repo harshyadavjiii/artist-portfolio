@@ -2,20 +2,25 @@
 
 A responsive personal portfolio for **Swati Yadav**, presenting her work across agronomy, crop research, travel photography, paintings, and visual storytelling. The site is designed as a polished client-facing experience with a warm editorial visual language, responsive navigation, interactive artwork presentation, and light/dark themes.
 
-<img width="500" alt="Screenshot 2026-09-07 090102" src="https://github.com/user-attachments/assets/fd6bfbf9-9e8e-487d-bd12-395d52e63fbf" />
+<p align="center">
+<img width="900" alt="Screenshot 2026-09-07 090102" src="https://github.com/user-attachments/assets/fd6bfbf9-9e8e-487d-bd12-395d52e63fbf" />
+</p>
 
 ## What The Product Includes
 
 - A home page with Swati's introduction, professional highlights, interactive artist avatar, contact call-to-action, and featured showcase.
 
-<img width="500" alt="Screenshot 2026-09-07 090424" src="https://github.com/user-attachments/assets/b65832aa-6aa9-45d3-96e3-f9206f3662b0" />
+<p align="center">
+<img width="900" alt="Screenshot 2026-09-07 090424" src="https://github.com/user-attachments/assets/b65832aa-6aa9-45d3-96e3-f9206f3662b0" />
+</p>
 
 - An About page covering her personal philosophy, travel interests, agronomy work, and research experience.
  
 - A Journal page containing 33 travel diary frames with titles, excerpts, and links to full scenery entries.
 
-<img width="1897" height="914" alt="image" src="https://github.com/user-attachments/assets/89371a9d-444d-4dab-98f0-ab0baa9c6025" />
-
+<p align="center">
+<img width="900" alt="image" src="https://github.com/user-attachments/assets/89371a9d-444d-4dab-98f0-ab0baa9c6025" />
+</p>
  
 - A Contact page with an email call-to-action and current availability statement.
 - Detail pages for six featured artworks, including the image, medium/type, description, additional details, and enquiry link.
